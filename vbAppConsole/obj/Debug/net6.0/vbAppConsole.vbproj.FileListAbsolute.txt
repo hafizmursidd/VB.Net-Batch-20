@@ -1,0 +1,15 @@
+C:\Bootcamp\Batch18\vbAppConsole\vbAppConsole\bin\Debug\net6.0\vbAppConsole.exe
+C:\Bootcamp\Batch18\vbAppConsole\vbAppConsole\bin\Debug\net6.0\vbAppConsole.deps.json
+C:\Bootcamp\Batch18\vbAppConsole\vbAppConsole\bin\Debug\net6.0\vbAppConsole.runtimeconfig.json
+C:\Bootcamp\Batch18\vbAppConsole\vbAppConsole\bin\Debug\net6.0\vbAppConsole.dll
+C:\Bootcamp\Batch18\vbAppConsole\vbAppConsole\bin\Debug\net6.0\vbAppConsole.pdb
+C:\Bootcamp\Batch18\vbAppConsole\vbAppConsole\obj\Debug\net6.0\vbAppConsole.vbproj.AssemblyReference.cache
+C:\Bootcamp\Batch18\vbAppConsole\vbAppConsole\obj\Debug\net6.0\vbAppConsole.GeneratedMSBuildEditorConfig.editorconfig
+C:\Bootcamp\Batch18\vbAppConsole\vbAppConsole\obj\Debug\net6.0\vbAppConsole.AssemblyInfoInputs.cache
+C:\Bootcamp\Batch18\vbAppConsole\vbAppConsole\obj\Debug\net6.0\vbAppConsole.AssemblyInfo.vb
+C:\Bootcamp\Batch18\vbAppConsole\vbAppConsole\obj\Debug\net6.0\vbAppConsole.vbproj.CoreCompileInputs.cache
+C:\Bootcamp\Batch18\vbAppConsole\vbAppConsole\obj\Debug\net6.0\vbAppConsole.dll
+C:\Bootcamp\Batch18\vbAppConsole\vbAppConsole\obj\Debug\net6.0\refint\vbAppConsole.dll
+C:\Bootcamp\Batch18\vbAppConsole\vbAppConsole\obj\Debug\net6.0\vbAppConsole.pdb
+C:\Bootcamp\Batch18\vbAppConsole\vbAppConsole\obj\Debug\net6.0\vbAppConsole.genruntimeconfig.cache
+C:\Bootcamp\Batch18\vbAppConsole\vbAppConsole\obj\Debug\net6.0\ref\vbAppConsole.dll
