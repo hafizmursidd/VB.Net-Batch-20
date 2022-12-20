@@ -7,8 +7,6 @@
         Private _joinDate As DateTime
         Private _basicSalary As Double
         Private _totalSalary As Double
-        Private _id As Integer = New Random().NextInt64(1, 10)
-
         'default
         Public Sub New()
 

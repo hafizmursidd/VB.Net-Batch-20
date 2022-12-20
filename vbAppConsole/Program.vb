@@ -1,6 +1,7 @@
 Imports System
 'Imports vbAppConsole.PartOne
 Imports vbAppConsole.PartTwo
+Imports vbAppConsole.Abstract
 
 
 
@@ -49,40 +50,44 @@ Module Program
         'ModuleArray.DisplayArray()
 
         ''Call interface kiri and implementation kanan
-        Dim IHumanResource As IHR = New HR
-        Dim listEmp = IHumanResource.InitEmployee()
+        'Dim emp As Employee = New Employee()
+        'Dim IHumanResource As IHR = New HR
+        'Dim listEmp = IHumanResource.InitEmployee()
 
-        IHumanResource.DisplayEmployee(listEmp)
+        'IHumanResource.DisplayEmployee(listEmp)
 
-        Dim emp = IHumanResource.FindEmployeeById(listEmp, 1)
+        'Dim emp = IHumanResource.FindEmployeeById(listEmp, 1)
 
-        If emp Is Nothing Then
-            Console.WriteLine($"Data Not Found")
-        Else
-            Console.WriteLine($"Data is Found: {emp}")
-        End If
+        'If emp Is Nothing Then
+        '    Console.WriteLine($"Data Not Found")
+        'Else
+        '    Console.WriteLine($"Data is Found: {emp}")
+        'End If
 
-        Console.WriteLine("")
+        'Console.WriteLine("")
 
-        Dim totalEmp = IHumanResource.TotalEmployeeByRole(listEmp, "Programmer")
-        Console.WriteLine($"Total Programmer: {totalEmp}")
-        totalEmp = IHumanResource.TotalEmployeeByRole(listEmp, "Sales")
-        Console.WriteLine($"Total Sales: {totalEmp}")
-        totalEmp = IHumanResource.TotalEmployeeByRole(listEmp, "QA")
-        Console.WriteLine($"Total QA: {totalEmp}")
+        'Dim totalEmp = IHumanResource.TotalEmployeeByRole(listEmp, "Programmer")
+        'Console.WriteLine($"Total Programmer: {totalEmp}")
+        'totalEmp = IHumanResource.TotalEmployeeByRole(listEmp, "Sales")
+        'Console.WriteLine($"Total Sales: {totalEmp}")
+        'totalEmp = IHumanResource.TotalEmployeeByRole(listEmp, "QA")
+        'Console.WriteLine($"Total QA: {totalEmp}")
 
-        Console.WriteLine("")
+        'Console.WriteLine("")
 
-        Dim totalSalary = IHumanResource.TotalEmployeeSalaryByRole(listEmp, "Programmer")
-        Console.WriteLine($"Total Salary Programmer: {totalSalary }")
-        totalSalary = IHumanResource.TotalEmployeeSalaryByRole(listEmp, "Sales")
-        Console.WriteLine($"Total Salary Sales: {totalSalary }")
-        totalSalary = IHumanResource.TotalEmployeeSalaryByRole(listEmp, "QA")
-        Console.WriteLine($"Total Salary QA: {totalSalary}")
+        'Dim totalSalary = IHumanResource.TotalEmployeeSalaryByRole(listEmp, "Programmer")
+        'Console.WriteLine($"Total Salary Programmer: {totalSalary }")
+        'totalSalary = IHumanResource.TotalEmployeeSalaryByRole(listEmp, "Sales")
+        'Console.WriteLine($"Total Salary Sales: {totalSalary }")
+        'totalSalary = IHumanResource.TotalEmployeeSalaryByRole(listEmp, "QA")
+        'Console.WriteLine($"Total Salary QA: {totalSalary}")
 
-        Console.WriteLine("")
-        Dim totalSalarayEmp = IHumanResource.TotalSalaryAll(listEmp)
-        Console.WriteLine($"Total Seluruh Salary: {totalSalarayEmp}")
+        'Console.WriteLine("")
+        'Dim totalSalarayEmp = IHumanResource.TotalSalaryAll(listEmp)
+        'Console.WriteLine($"Total Seluruh Salary: {totalSalarayEmp}")
+
+        Dim coba As s
+        Console.WriteLine()
 
 
 
