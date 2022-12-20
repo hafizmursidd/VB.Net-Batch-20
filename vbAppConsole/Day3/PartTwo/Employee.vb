@@ -90,7 +90,12 @@
         End Property
 
         Public Overrides Function ToString() As String
-            Return $"EmpId : {Me._empId}, firstName : {_firstName}, lastName: {_lastName}, joinDate : {_joinDate}, basicSalary {_basicSalary}"
+            Return $"
+EmpId : {Me._empId}, 
+firstName : {_firstName}, 
+lastName: {_lastName}, 
+joinDate : {_joinDate}, 
+basicSalary {_basicSalary}"
         End Function
 
     End Class

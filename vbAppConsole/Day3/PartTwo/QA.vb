@@ -1,16 +1,14 @@
 ﻿Namespace PartTwo
-    Public Class Programmer
+    Public Class QA
         Inherits Employee
 
-        Private _transportasi As Double
+        Private _makan As Double
 
-        Public Sub New(firstName As String, lastName As String, joinDate As Date, basicSalary As Double, Optional transportasi As Double = Nothing)
+        Public Sub New(firstName As String, lastName As String, joinDate As Date, basicSalary As Double, Optional makan As Double = Nothing)
             MyBase.New(firstName, lastName, joinDate, basicSalary)
-            _transportasi = transportasi
-            MyBase.TotalSalary += transportasi
+            _makan = makan
+            MyBase.TotalSalary += makan
         End Sub
-
-
 
         Public Overrides Property BasicSalary As Double
             Get
@@ -18,29 +16,25 @@
             End Get
             Set(value As Double)
                 MyBase.BasicSalary = value
-                TotalSalary = value + _transportasi
+                TotalSalary = value + _makan
             End Set
         End Property
-
-
-        Public Property Transportasi As Double
+        Public Property Makan As Double
             Get
-                Return Transportasi
+                Return _makan
             End Get
             Set(value As Double)
-                _transportasi = value
+                _makan = value
                 TotalSalary = value + BasicSalary
             End Set
         End Property
 
+
         Public Overrides Function ToString() As String
             Return $"{MyBase.ToString()}, 
-TunjanganPRG : {_transportasi}, 
+TunjanganMakan : {Makan}, 
 TotalSalary: {MyBase.TotalSalary}"
         End Function
-
-
-
     End Class
 End Namespace
 
